@@ -32,7 +32,7 @@ WINDOW = Tk()
 WINDOW.title("Klipper Rotation Distance Calculator V1.0 Alpha")
 WINDOW.geometry("450x325")
 WINDOW.resizable(False, False)
-WINDOW.iconbitmap(r"C:\Users\Maik\Desktop\Klipper Rotation Calculator\icons\gears-colored.ico")
+WINDOW.iconbitmap(r"C:\PATH\TO\ICON.ico")
 
 # Create Widgets (Labels and Input Fields and Button)
 Label(WINDOW, text="Please Enter the Values to\n calculate your Rotation Distance.", font=('Comfortaa 12 bold')).pack()
